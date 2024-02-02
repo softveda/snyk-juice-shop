@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:2.2.8-stretch-slim 
+FROM dotnet/core/aspnet:2.2.8-stretch-slim 
 #FROM node:17.3.1-stretch-slim
 
 RUN mkdir /usr/src/goof
